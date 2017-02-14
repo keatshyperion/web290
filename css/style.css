@@ -343,7 +343,7 @@ nav .fa {
   align-items: center; }
   @media (max-width: 720px) {
     .header {
-      min-height: 300px; } }
+      min-height: 500px; } }
 
 .header div {
   display: flex;
