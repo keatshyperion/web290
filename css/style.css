@@ -341,7 +341,7 @@ nav .fa {
 .header {
   display: flex;
   flex-flow: column;
-  height: 100vmin;
+  height: 1000px;
   background-color: #3f3f3f;
   align-items: center; }
 
