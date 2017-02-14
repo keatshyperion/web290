@@ -6,6 +6,14 @@
    License: none (public domain)
 
 */
+@media (max-width: 720px) {
+  html {
+    font-size: 80%;
+    text-align: center; } }
+@media (max-width: 320px) {
+  html {
+    font-size: 70%; } }
+
 a,
 abbr,
 acronym,
@@ -45,7 +53,6 @@ h5,
 h6,
 header,
 hgroup,
-html,
 i,
 iframe,
 img,
@@ -165,22 +172,22 @@ header {
   margin-bottom: 4%; }
 
 .btn, .btn-orange {
-  height: 50px;
-  width: 170px;
+  height: 3rem;
+  width: 10rem;
   border: 0;
-  font-size: 15px; }
+  font-size: 1rem; }
   @media (max-width: 720px) {
     .btn, .btn-orange {
       height: 40px;
       width: 120px;
-      font-size: 12px; } }
+      font-size: 1rem; } }
 
 .btn-orange {
   background-color: #e4bb7a;
   color: black;
   text-transform: uppercase;
   font-family: 'montserrat';
-  margin-top: 20px; }
+  margin-top: 1.2rem; }
 
 .btn-orange:hover {
   background-color: inherit;
@@ -192,26 +199,20 @@ header {
 /*fonts*/
 .font-mont16 {
   color: black;
-  font-size: 2vmin;
+  font-size: 1rem;
   text-transform: uppercase;
   font-weight: 700;
-  letter-spacing: 2.1px; }
-  @media (max-width: 720px) {
-    .font-mont16 {
-      font-size: 12px; } }
+  letter-spacing: 0.1rem; }
 
 .satisfy {
   font-family: 'satisfy';
-  font-size: 6vmin;
+  font-size: 4rem;
   color: #e4bb7a; }
-  @media (max-width: 480px) {
-    .satisfy {
-      font-size: 30px; } }
 
 .av76 {
   font-family: 'Average';
   color: white;
-  font-size: 9vmin;
+  font-size: 4rem;
   font-weight: 400; }
 
 .av16-bold {
@@ -225,21 +226,15 @@ header {
 .av16 {
   font-family: 'Average';
   color: white;
-  font-size: 1.7vmin;
+  font-size: 1rem;
   font-weight: 400; }
-  @media (max-width: 720px) {
-    .av16 {
-      font-size: 13px; } }
 
 .mont36 {
   font-family: 'montserrat';
   color: white;
-  font-size: 4vmin;
+  font-size: 2.1rem;
   text-transform: uppercase;
   letter-spacing: 4px; }
-  @media (max-width: 720px) {
-    .mont36 {
-      font-size: 16px; } }
 
 .hello {
   background-color: red; }
@@ -266,20 +261,20 @@ header {
   .mobile-menu a {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 1.4rem;
     color: #818181;
     display: block;
     transition: 0.3s; }
 
 .mobile-menu-activated {
-  width: 200px; }
+  width: 12rem; }
 
 /**/
 /*  top */
 .where {
   display: flex;
   flex-flow: row;
-  min-height: 60px;
+  min-height: 3.5rem;
   background-color: #e4bb7a;
   align-items: center;
   flex-wrap: wrap;
@@ -287,7 +282,7 @@ header {
 
 .where-font {
   font-family: 'Average';
-  font-size: 13px;
+  font-size: 1rem;
   color: #1b1b1b; }
 
 .where .fa {
@@ -314,12 +309,12 @@ nav a {
   color: white;
   text-transform: uppercase;
   font-family: 'montserrat';
-  font-size: 15px;
+  font-size: 1rem;
   text-decoration: none;
-  margin-left: 20px;
-  margin-right: 20px;
+  margin-left: 2.2rem;
+  margin-right: 2.2rem;
   box-sizing: padding-box;
-  padding-bottom: 10px; }
+  padding-bottom: 0.4rem; }
   @media (max-width: 720px) {
     nav a {
       display: none; } }
@@ -338,12 +333,9 @@ nav .fa {
 .header {
   display: flex;
   flex-flow: column;
-  min-height: 1000px;
+  height: 60rem;
   background-color: #3f3f3f;
   align-items: center; }
-  @media (max-width: 720px) {
-    .header {
-      min-height: 500px; } }
 
 .header div {
   display: flex;
@@ -380,8 +372,7 @@ nav .fa {
 .town {
   display: flex;
   flex-flow: column;
-  min-height: 400px;
-  height: 60vmin;
+  height: 40rem;
   background-color: #3f3f3f;
   align-items: center;
   justify-content: space-around; }
@@ -448,7 +439,7 @@ nav .fa {
   display: flex;
   flex-flow: column;
   background-color: #cccccc;
-  min-height: 1000px;
+  height: 60rem;
   justify-content: space-around;
   flex-wrap: wrap; }
 
@@ -515,7 +506,7 @@ nav .fa {
 .btn-white {
   background-color: white;
   text-transform: uppercase;
-  font-size: 15px;
+  font-size: 1rem;
   font-family: 'montserrat';
   margin-top: 20px;
   border: 1px solid black; }
@@ -537,7 +528,7 @@ nav .fa {
 .steak {
   display: flex;
   flex-flow: row;
-  min-height: 60vmin;
+  min-height: 35rem;
   background-color: #e2e1e1;
   align-items: center;
   flex-wrap: wrap;
@@ -606,7 +597,6 @@ nav .fa {
   display: flex;
   flex-flow: column;
   min-height: 550px;
-  height: 60vmin;
   background-color: #3f3f3f;
   justify-content: center;
   align-items: flex-start;
@@ -625,7 +615,7 @@ nav .fa {
   margin-bottom: 20px; }
 
 .hist .av16 {
-  font-size: 15px;
+  font-size: 1rem;
   color: #acacac;
   width: 40%; }
   @media (max-width: 720px) {
@@ -647,7 +637,7 @@ nav .fa {
 /*ASK*/
 .ask {
   display: flex;
-  height: 40vmin;
+  height: 400px;
   flex-flow: column;
   background-color: #292929;
   align-items: center;
@@ -656,7 +646,7 @@ nav .fa {
   flex-wrap: wrap; }
 
 .ask .av16 {
-  font-size: 4vmin; }
+  font-size: 2rem; }
 
 /**/
 /*HAMBURGERS*/
@@ -709,18 +699,16 @@ nav .fa {
   padding-left: 25%; }
 
 .hamb-price {
-  font-size: 2vmin;
+  font-size: 1rem;
   font-family: 'montserrat';
   font-weight: bold; }
-  @media (max-width: 720px) {
-    .hamb-price {
-      font-size: 16px; } }
 
 .hamburger .av16 {
   color: orange; }
 
 .span-width {
-  padding-right: 30%; }
+  padding-right: 30%;
+  font-size: 1rem; }
 
 .hamb img {
   width: 30%; }
@@ -788,10 +776,9 @@ nav .fa {
 
 /**/
 .opening {
-  height: 70vmin;
+  height: 50rem;
   background-color: #1a1a1a;
-  justify-content: center;
-  min-height: 650px; }
+  justify-content: center; }
   .opening div {
     justify-content: center;
     flex-wrap: wrap; }
@@ -807,8 +794,8 @@ nav .fa {
       box-shadow: inset 0 0 0 1px black; }
       @media (max-width: 1200px) {
         .opening div div {
-          margin-top: 10%;
-          margin-bottom: 10%; } }
+          margin-top: 0.625rem;
+          margin-bottom: 0.625rem; } }
       .opening div div :nth-of-type(3) {
         margin-top: 60px; }
       .opening div div .av16 {
@@ -830,7 +817,7 @@ nav .fa {
 .meet {
   align-items: center;
   background-color: #292929;
-  min-height: 920px; }
+  min-height: 60rem; }
   .meet div {
     width: 80%;
     flex-wrap: wrap;
@@ -855,13 +842,13 @@ nav .fa {
       .meet div ul .font-mont16 {
         color: white;
         font-weight: bold;
-        margin-top: 20px; }
+        margin-top: 1.3rem; }
       .meet div ul :nth-of-type(3) {
-        margin-top: 10px;
-        margin-bottom: 10px; }
+        margin-top: 0.625rem;
+        margin-bottom: 0.625rem; }
         .meet div ul :nth-of-type(3) .fa {
           color: #d8b175;
-          padding: 10px; }
+          padding: 0.625rem; }
       .meet div ul img {
         width: 15vw;
         height: auto; }
@@ -872,7 +859,7 @@ nav .fa {
 
 .book {
   background-color: #1a1a1a;
-  min-height: 500px;
+  height: 28rem;
   align-items: center;
   justify-content: center; }
   @media (max-width: 720px) {
@@ -901,12 +888,12 @@ nav .fa {
   background-color: #292929;
   justify-content: center;
   align-items: center;
-  height: 430px; }
+  min-height: 28rem; }
   .rec .flex-row {
     justify-content: center;
     align-items: center; }
     .rec .flex-row:nth-of-type(1) {
-      height: 200px; }
+      height: 20rem; }
   .rec .flex-col {
     justify-content: center;
     align-items: center;
@@ -952,7 +939,6 @@ nav .fa {
 .cust {
   background-color: white;
   min-height: 300px;
-  height: 60vmin;
   flex-wrap: wrap;
   align-items: center; }
   .cust header {
@@ -970,7 +956,7 @@ footer {
   background-color: #fbfbfb;
   align-items: center;
   flex-wrap: wrap;
-  min-height: 360px; }
+  height: 16rem; }
   footer .btn-orange:hover {
     color: black;
     border: 1px solid black; }
