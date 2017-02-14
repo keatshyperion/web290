@@ -6,12 +6,6 @@
    License: none (public domain)
 
 */
-html{
-overflow-y:scroll;
-}
-img{
-   max-width:100%;
-}
 a,
 abbr,
 acronym,
@@ -344,9 +338,12 @@ nav .fa {
 .header {
   display: flex;
   flex-flow: column;
-  height: 100vh;
+  min-height: 1000px;
   background-color: #3f3f3f;
   align-items: center; }
+  @media (max-width: 720px) {
+    .header {
+      min-height: 300px; } }
 
 .header div {
   display: flex;
@@ -875,9 +872,12 @@ nav .fa {
 
 .book {
   background-color: #1a1a1a;
-  min-height: 50vmin;
+  min-height: 500px;
   align-items: center;
   justify-content: center; }
+  @media (max-width: 720px) {
+    .book {
+      min-height: 200px; } }
   .book > form {
     align-items: center;
     justify-content: center;
