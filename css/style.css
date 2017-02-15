@@ -313,7 +313,7 @@ text-align:center;
     .nav {
       justify-content: space-around;
       align-items: center;
-      flex-flow: nowrap; } }
+      flex-wrap: nowrap; } }
 }
 nav a {
   color: white;
