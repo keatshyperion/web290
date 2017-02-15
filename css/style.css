@@ -284,7 +284,9 @@ header {
   font-family: 'Average';
   font-size: 1rem;
   color: #1b1b1b; 
-   line-height:2.1px }
+   line-height:2.1px;
+text-align:center;
+}
 
 .where .fa {
   padding-left: 10px;
