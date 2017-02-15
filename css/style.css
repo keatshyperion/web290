@@ -218,7 +218,11 @@ header {
   color: white;
   font-size: 4.75rem;
   font-weight: 400; }
-
+@media(max-width:720px){
+.av76{
+   font-size:3.6rem;
+   }
+}
 .av16-bold {
   font-weight: bold; }
 
