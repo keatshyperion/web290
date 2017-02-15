@@ -468,6 +468,7 @@ nav img{
   align-self: center; }
 .organic nav > div{
 margin-right:2.2rem;
+   padding-bottom:0.4rem;
 }
 .organic nav a {
   color: black;
