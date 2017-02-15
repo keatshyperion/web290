@@ -726,10 +726,13 @@ height:4.375rem;
 .span-width {
   padding-right: 30%;
   font-size: 1rem; }
-
-.hamb img {
+.hamb figure{
  width:13.94rem;
 height:11.44rem;}
+}
+.hamb img {
+width:100%;
+   height:auto;}
 
 .photo {
   position: relative;
