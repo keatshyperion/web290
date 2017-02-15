@@ -308,13 +308,13 @@ text-align:center;
   flex-flow: row;
   justify-content: space-around;
   align-items: center;
-  flex-flow: wrap; }
+  flex-flow: nowrap;
   @media (max-width: 720px) {
     .nav {
       justify-content: space-around;
       align-items: center;
       flex-flow: nowrap; } }
-
+}
 nav a {
   color: white;
   text-transform: uppercase;
@@ -328,6 +328,7 @@ nav a {
   @media (max-width: 600px) {
     nav a {
       display: none; } }
+
 
 nav a:hover {
   border-bottom: 2px solid #d8b175; }
