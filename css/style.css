@@ -9,13 +9,10 @@
 
 @media (max-width: 720px) {
   html {
-    font-size: 85%;
+    font-size: 80%;
     text-align: justify; }
 }
-@media (max-width: 320px) {
-  html {
-    font-size: 80%; } 
-}
+
 @media(max-width:1220px){
 html{
    font-size:90%;
