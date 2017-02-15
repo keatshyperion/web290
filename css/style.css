@@ -466,7 +466,9 @@ nav img{
 
 .organic nav {
   align-self: center; }
-
+.organic nav > div{
+margin-right:2.2rem;
+}
 .organic nav a {
   color: black;
   text-decoration: underline dotted red; }
