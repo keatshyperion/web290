@@ -303,7 +303,7 @@ text-align:center;
 /*nav*/
 .nav {
   background-color: #262626;
-  min-height: 100px;
+  min-height: 6.25rempx;
   display: flex;
   flex-flow: row;
   justify-content: space-around;
@@ -325,7 +325,7 @@ nav a {
   margin-right: 2.2rem;
   box-sizing: padding-box;
   padding-bottom: 0.4rem; }
-  @media (max-width: 720px) {
+  @media (max-width: 600px) {
     nav a {
       display: none; } }
 
