@@ -966,11 +966,11 @@ width:30%;
 
 .cust {
   background-color: white;
-  min-height: 300px;
+  min-height: 20rem;
   flex-wrap: wrap;
   align-items: center; }
   .cust header {
-    margin-top: 6%;
+    margin-top: 1rem;
     text-align: center; }
   .cust img {
     margin-bottom: 4%; }
