@@ -303,7 +303,7 @@ text-align:center;
 /*nav*/
 .nav {
   background-color: #262626;
-  min-height: 6.25rempx;
+  min-height: 6.25rem;
   display: flex;
   flex-flow: row;
   justify-content: space-around;
