@@ -315,7 +315,14 @@ text-align:center;
       align-items: center;
       flex-wrap: nowrap; } }
 }
-nav a {
+nav{
+display:flex;
+  flex-flow:row;
+  align-items:center;
+  flex-wrap:nowrap;
+  justify-content: center;
+}
+   nav a {
   color: white;
   text-transform: uppercase;
   font-family: 'montserrat';
