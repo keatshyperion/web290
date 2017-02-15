@@ -551,7 +551,10 @@ nav img{
   @media (max-width: 1200px) {
     .steak {
       background-color: white; } }
-
+.steak img{
+width:5rem;
+height:4.375rem;
+}
 .steak-shapes {
   display: flex;
   height: 410px;
