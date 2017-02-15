@@ -210,7 +210,7 @@ header {
 
 .satisfy {
   font-family: 'satisfy';
-  font-size: 4rem;
+  font-size: 3.5rem;
   color: #e4bb7a; }
 
 .av76 {
@@ -267,7 +267,7 @@ header {
   transition: 0.5s;
   /* 0.5 second transition effect to slide in the sidenav */ }
   .mobile-menu a {
-    padding: 8px 8px 8px 32px;
+    padding: 0.5rem 0.5rem 0.5rem 2rem;
     text-decoration: none;
     font-size: 1.4rem;
     color: #818181;
@@ -365,20 +365,21 @@ nav img{
   flex-flow: column;
   align-items: center;
   margin: auto;
-  width: 100%; }
+padding:0rem 1rem 0rem 1rem;
+  width: auto; }
 
 .arrow {
-  padding-top: 20px; }
+  padding-top: 1.25rem; }
 
 .bell {
-  margin-bottom: 20px;
+  margin-bottom: 1.25rem;
   color: #e4bb7a; }
 
 /**/
 /*menu*/
 .menu {
   display: flex;
-  min-height: 170px;
+  min-height: 10.625rem;
   flex-flow: column;
   justify-content: center;
   align-items: center; }
@@ -388,7 +389,7 @@ nav img{
 
 /**/
 .menu img {
-  margin-bottom: 20px; }
+  margin-bottom: 1.25rem; }
 
 /*town*/
 .town {
@@ -420,15 +421,50 @@ nav img{
   background-color: #d8b175;
   border: 1px solid #d8b175; }
 .town-radio .red-circle {
-  width: 6px;
-  height: 6px;
+  width: 0.375rem;
+  height: 0.375rem;
   background-color: inherit;
-  border: 1px solid white;
-  margin: 2px;
+  border: 0.0625rem solid white;
+  margin: 0.125rem;
   border-radius: 50%; }
 
 .town-span {
-  width: 60%; }
+  width: 60%;
+
+
+ }
+ .town i{
+   cursor:pointer;
+ }
+ .slider{
+   position:relative;
+   overflow:hidden;
+height:7rem;
+text-align:left;
+
+ }
+ .slider .item{
+   position:absolute;
+   top:600px;
+
+
+ }
+ .slider .animate{
+   animation-duration:0.4s;
+   animation-name: example;
+position:relative;
+animation-timing-function:linear;
+text-align:left;
+ }
+ @keyframes example {
+  from {left:-60%;opacity:0.6;}
+  to {left:0rem;opacity:1;}
+}
+@media(max-width:1100px){
+  .slider{
+    height:14rem;
+  }
+}
 
 .lol {
   display: flex;
@@ -448,12 +484,12 @@ nav img{
 .icons {
   display: flex;
   flex-flow: row;
-  min-height: 110px;
+  min-height: 6.875rem;
   justify-content: center;
   align-items: center; }
 
 .icons i {
-  padding: 20px; }
+  padding: 1.25rem; }
 
 /**/
 /*ORGANIC FOOD*/
@@ -491,12 +527,12 @@ margin-right:2.2rem;
       margin-bottom: 4%; } }
   .organic .icons2 span {
     border: 1px solid black;
-    padding: 10px;
+    padding: 0.625rem;
     border-radius: 50px;
     display: flex;
     flex-flow: column;
     align-items: center;
-    margin: 10px; }
+    margin: 0.625rem; }
     .organic .icons2 span:hover {
       background-color: #E0EEEE;
       transition: 0.5s; }
@@ -526,7 +562,7 @@ margin-right:2.2rem;
 .organic .av16 {
   color: black;
   text-align: center;
-  margin-top: 10px; }
+  margin-top: 0.625rem; }
 
 .btn-white {
   background-color: white;
@@ -566,6 +602,7 @@ margin-right:2.2rem;
 width:5rem;
 height:4.375rem;
 }
+
 .steak-shapes {
   display: flex;
   height: 410px;
@@ -590,13 +627,19 @@ height:4.375rem;
   top: 10px; }
   @media (max-width: 1200px) {
     .steak-white-card {
-      background-color: white; } }
+      background-color: white; }
+.steak .av16{
+  padding:1rem;
+}
+    }
 
 .steak-white-card .mont36 {
   color: black; }
 
 .steak-white-card .av16 {
-  color: #4d4d4d; }
+  color: #4d4d4d;
+
+}
 
 .steak-shape-half {
   height: 310px;
@@ -624,7 +667,7 @@ height:4.375rem;
 .hist {
   display: flex;
   flex-flow: column;
-  min-height: 550px;
+  min-height: 34.375rem;
   background-color: #3f3f3f;
   justify-content: center;
   align-items: flex-start;
@@ -634,22 +677,33 @@ height:4.375rem;
   display: flex;
   flex-flow: column;
   align-items: flex-start;
-  margin-left: 200px;
+  margin-left: 12.5rem;
   flex-wrap: wrap; }
 
 .hist-disc {
   display: flex;
   flex-flow: column;
-  margin-bottom: 20px; }
+  margin-bottom: 1.25rem;
+align-items:center;
+padding:1rem;
+}
 
 .hist .av16 {
+
   font-size: 1rem;
   color: #acacac;
   width: 40%; }
   @media (max-width: 720px) {
     .hist .av16 {
-      width: 100%;
-      text-align: justify; } }
+      width:auto;
+      padding:1rem;
+      text-align: justify;
+       }
+.hist >div{
+  justify-content: center;
+  align-items: center;
+}
+      }
 
 .hist .satisfy {
   line-height: 1.0; }
@@ -659,7 +713,8 @@ height:4.375rem;
   padding-bottom: 40px; }
 
 .hist .btn, .hist .btn-orange {
-  margin-top: 75px; }
+  margin-top: 4.6875rem;
+ }
 
 /**/
 /*ASK*/
@@ -674,7 +729,10 @@ height:4.375rem;
   flex-wrap: wrap; }
 
 .ask .av16 {
-  font-size: 2rem; }
+  font-size: 2rem;
+padding:0 1rem 1rem 1rem;
+text-align: center;
+ }
 
 /**/
 /*HAMBURGERS*/
@@ -758,13 +816,20 @@ width:30%;
 .menus {
   display: flex;
   flex-flow: column;
-  min-height: 1000px;
+  min-height: 62.5rem;
   background-color: #292929; }
 
 .menus header {
   margin: 4% 30% 6%;
   align-items: center;
   text-align: justify; }
+  @media (max-width:720px){
+    .menus header{
+      margin:0px;
+      padding:1rem 1rem 0 1rem;
+      text-align:center;
+    }
+  }
 
 .menus .mont36 {
   color: white; }
@@ -846,7 +911,13 @@ width:30%;
 .meet {
   align-items: center;
   background-color: #292929;
-  min-height: 60rem; }
+  min-height: 56.25rem;
+padding-top:2rem;
+}
+.meet header{
+  text-align:center;
+}
+
   .meet div {
     width: 80%;
     flex-wrap: wrap;
@@ -926,14 +997,17 @@ width:30%;
   .rec .flex-col {
     justify-content: center;
     align-items: center;
+
     width: 200px;
     height: 200px;
     overflow: hidden; }
 
 .rec .fa-stack {
-  color: #d8b175; }
+  color: #d8b175;
+ }
   .rec .fa-stack .fa-header {
-    color: black; }
+    color: black;
+   }
 
 .rec > .flex-row {
   width: 60%;
@@ -964,7 +1038,12 @@ width:30%;
 
 .red-dots-active {
   background-color: #d8b175; }
-
+.fa-coffee{
+  padding-right:1rem;
+}
+.fa-cutlery{
+  padding-left:1rem;
+}
 .cust {
   background-color: white;
   min-height: 25rem;
@@ -1005,9 +1084,9 @@ footer {
       margin-left: 20px; }
 
 /**/
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 1100px) {
   .town-span {
-    width: 200px; } }
+    width: 16rem; } }
 @media only screen and (max-width: 1100px) {
   .lol {
     padding-right: 0;

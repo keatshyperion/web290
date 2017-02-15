@@ -63,3 +63,26 @@ function menu(){
 var menu = document.querySelector('.mobile-menu');
 menu.classList.toggle('mobile-menu-activated');
 }
+
+
+
+var town = document.querySelectorAll('.town-span');
+var position = 0;
+var orange = document.querySelectorAll('.red-circle');
+
+function hi(y){
+town[position].classList.remove('animate');
+orange[position].classList.remove('red-circle-active');
+town[position].classList.add('item');
+position += y;
+if(position<0){
+  position=4;
+
+}
+if(position==5){
+  position=0;
+}
+town[position].classList.remove('item');
+orange[position].classList.add('red-circle-active');
+town[position].classList.add('animate');
+}
