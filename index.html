@@ -12,7 +12,7 @@
 
 <body>
     <div class="flex-container">
-        <section class="where">
+        <section class="where" id="home">
             <div class="where-font"> <i class="fa fa-font"></i>New Scotland Yard, 8-10 Broadway, Westminster, London SW1H 0BG</div>
            <div><i class="fa fa-heartbeat" aria-hidden="true"></i>
   <i class="fa fa-file-text" aria-hidden="true"></i>
@@ -22,12 +22,12 @@
 
 <img src="images/logo.png" alt="" />
 <nav>
-<a href="#">home</a>
-<a href="#">reservations</a>
-<a href="#">menu</a>
-<a href="#">blog</a>
-<a href="#">features</a>
-<a href="#">contact</a>
+<a data-scroll href="#home">home</a>
+<a data-scroll href="#book">reservations</a>
+<a data-scroll href="#home">menu</a>
+<a data-scroll href="#organic">blog</a>
+<a data-scroll href="#meet">features</a>
+<a data-scroll href="#footer">contact</a>
 <i class="fa fa-bars pointer" onclick="menu()"  aria-hidden="true"></i>
 
 </nav>
@@ -91,7 +91,7 @@
         <i class="fa fa-fire" aria-hidden="true"></i>
 
     </section>
-    <section class="organic">
+    <section class="organic" id="organic">
         <nav>
             <a href="#">home</a>
             <a href="#">reservations</a>
@@ -157,7 +157,7 @@
 </span>
         <span class="satisfy">Orson Welles</span>
     </section>
-    <section class="hamb">
+    <section class="hamb" id="hamb">
         <div class="hamb-header">
             <span class="satisfy">Our Dishes</span>
             <span class="mont36">menu</span>
@@ -319,7 +319,7 @@ Sunday 12.30 til 4 pm
         </div>
 
     </section>
-    <section class="meet flex-col">
+    <section class="meet flex-col" id="meet">
         <header>
             <span class="satisfy">Our Staff</span>
             <span class="mont36">meet our chefs</span>
@@ -362,7 +362,7 @@ Sunday 12.30 til 4 pm
         </div>
 
     </section>
-    <section class="book flex-col">
+    <section class="book" flex-col id="book">
         <header>
             <span class="satisfy">Reservation</span>
             <span class="mont36">Book a table</span>
@@ -424,7 +424,7 @@ Sunday 12.30 til 4 pm
         <span class="av-16-orange">Movie Critic</span>
     </section>
 
-    <footer class="flex-col">
+    <footer id="footer" class="flex-col">
         <span class="font-mont16">Subscribe to our newsletter</span>
         <figure><img src="images/Arrow.png" alt="" /></figure>
         <form action="email:hi.pl" class="flex-row">
@@ -433,7 +433,10 @@ Sunday 12.30 til 4 pm
                 <input type="submit" name="name" value=" E-mail" class="btn-orange">
             </div>
         </form>
-    </footer>
+    <script>
+    smoothScroll.init();
+</script>
+        </footer>
 
 
     </div>
