@@ -966,19 +966,19 @@ width:30%;
 
 .cust {
   background-color: white;
-  min-height: 20rem;
+  min-height: 25rem;
   flex-wrap: wrap;
   align-items: center; }
   .cust header {
     margin-top: 1rem;
     text-align: center; }
   .cust img {
-    margin-bottom: 4%; }
+    margin-bottom: 2rem; }
   .cust > .av16 {
     color: black;
     width: 60%; }
   .cust .font-mont16 {
-    margin-top: 4%; }
+    margin-top: 2rem; }
 
 footer {
   background-color: #fbfbfb;
