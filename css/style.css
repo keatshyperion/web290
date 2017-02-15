@@ -984,7 +984,7 @@ footer {
   background-color: #fbfbfb;
   align-items: center;
   flex-wrap: wrap;
-  height: 16rem; }
+  min-height: 16rem; }
   footer .btn-orange:hover {
     color: black;
     border: 1px solid black; }
